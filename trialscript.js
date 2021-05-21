@@ -13,7 +13,7 @@ function compute(){
     var interest = (principal*years*rate)/100;
     var amount=parseFloat(interest)+parseFloat(principal);
 
-    if(principal <= 0 || pricipal == ""){
+    if(principal <= 0 || principal == ""){
         alert("Enter positive value for principal amount");
         document.getElementById("principal").focus();
     }
