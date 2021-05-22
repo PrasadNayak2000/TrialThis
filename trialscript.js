@@ -17,6 +17,5 @@ function compute(){
         alert("Enter positive value for principal amount");
         document.getElementById("principal").focus();
     }
-
-    document.getElementById("result").innerHTML="\<br/>If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>";
+    document.getElementById("result").innerHTML="\<br/>If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>";
 }
